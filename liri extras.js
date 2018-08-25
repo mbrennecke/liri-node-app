@@ -123,8 +123,7 @@
 				log(band);
 				//calls the song function with the artist name or lack thereof
 				if (!band){
-					query = song;
-					track(query);
+					track(song);
 					return;
 				}
 				//if it includes an artist, we need to shape the query
