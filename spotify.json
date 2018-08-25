@@ -1,0 +1,621 @@
+{"tracks":{"href":"https://api.spotify.com/v1/search?query=hard+sun&type=track&o
+ffset=0&limit=20","items":[{"album":{"album_type":"album","artists":[{"external_
+urls":{"spotify":"https://open.spotify.com/artist/0mXTJETA4XUa12MmmXxZJh"},"href
+":"https://api.spotify.com/v1/artists/0mXTJETA4XUa12MmmXxZJh","id":"0mXTJETA4XUa
+12MmmXxZJh","name":"Eddie Vedder","type":"artist","uri":"spotify:artist:0mXTJETA
+4XUa12MmmXxZJh"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","
+CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","
+GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","
+MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","
+SK","SV","TH","TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https:/
+/open.spotify.com/album/13xlpKbai3GGoMSr75lOeX"},"href":"https://api.spotify.com
+/v1/albums/13xlpKbai3GGoMSr75lOeX","id":"13xlpKbai3GGoMSr75lOeX","images":[{"hei
+ght":640,"url":"https://i.scdn.co/image/30c5eb7acfc64a555c56b83be2bf019cd4c9d565
+","width":640},{"height":300,"url":"https://i.scdn.co/image/dcfd57518e4355cadc49
+bc6fe1aa0980d8cab867","width":300},{"height":64,"url":"https://i.scdn.co/image/f
+82add1c7c526e8c5a222e61ead562d094e3760e","width":64}],"name":"Into The Wild (Mus
+ic For The Motion Picture)","release_date":"2007-09-18","release_date_precision"
+:"day","total_tracks":16,"type":"album","uri":"spotify:album:13xlpKbai3GGoMSr75l
+OeX"},"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0m
+XTJETA4XUa12MmmXxZJh"},"href":"https://api.spotify.com/v1/artists/0mXTJETA4XUa12
+MmmXxZJh","id":"0mXTJETA4XUa12MmmXxZJh","name":"Eddie Vedder","type":"artist","u
+ri":"spotify:artist:0mXTJETA4XUa12MmmXxZJh"}],"available_markets":["AD","AR","AT
+","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC
+","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP
+","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL
+","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"disc_n
+umber":1,"duration_ms":322080,"explicit":false,"external_ids":{"isrc":"USJY51700
+106"},"external_urls":{"spotify":"https://open.spotify.com/track/0fzCtVM9D5UEwiL
+qcY8Ouq"},"href":"https://api.spotify.com/v1/tracks/0fzCtVM9D5UEwiLqcY8Ouq","id"
+:"0fzCtVM9D5UEwiLqcY8Ouq","is_local":false,"name":"Hard Sun","popularity":62,"pr
+eview_url":null,"track_number":7,"type":"track","uri":"spotify:track:0fzCtVM9D5U
+EwiLqcY8Ouq"},{"album":{"album_type":"album","artists":[{"external_urls":{"spoti
+fy":"https://open.spotify.com/artist/2q0PlZJNGryR467EUNmWn7"},"href":"https://ap
+i.spotify.com/v1/artists/2q0PlZJNGryR467EUNmWn7","id":"2q0PlZJNGryR467EUNmWn7","
+name":"Bumpin Uglies","type":"artist","uri":"spotify:artist:2q0PlZJNGryR467EUNmW
+n7"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL
+","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK
+","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY
+","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH
+","TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spotif
+y.com/album/6qbGXpKlWDMpvFlTmbmyOh"},"href":"https://api.spotify.com/v1/albums/6
+qbGXpKlWDMpvFlTmbmyOh","id":"6qbGXpKlWDMpvFlTmbmyOh","images":[{"height":640,"ur
+l":"https://i.scdn.co/image/97087e91fdce7a59e4505eb2841008bff8ea25a0","width":64
+0},{"height":300,"url":"https://i.scdn.co/image/36bc5f29fbf8c83f1ce600f171edd8f3
+87f1bab0","width":300},{"height":64,"url":"https://i.scdn.co/image/109bf2da693dc
+40498829446e9f4d4a5baa5a3e2","width":64}],"name":"Beast From The East","release_
+date":"2018-04-06","release_date_precision":"day","total_tracks":12,"type":"albu
+m","uri":"spotify:album:6qbGXpKlWDMpvFlTmbmyOh"},"artists":[{"external_urls":{"s
+potify":"https://open.spotify.com/artist/2q0PlZJNGryR467EUNmWn7"},"href":"https:
+//api.spotify.com/v1/artists/2q0PlZJNGryR467EUNmWn7","id":"2q0PlZJNGryR467EUNmWn
+7","name":"Bumpin Uglies","type":"artist","uri":"spotify:artist:2q0PlZJNGryR467E
+UNmWn7"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6py4uFIC7T
+6RdrZnH6hFYJ"},"href":"https://api.spotify.com/v1/artists/6py4uFIC7T6RdrZnH6hFYJ
+","id":"6py4uFIC7T6RdrZnH6hFYJ","name":"Ballyhoo!","type":"artist","uri":"spotif
+y:artist:6py4uFIC7T6RdrZnH6hFYJ"},{"external_urls":{"spotify":"https://open.spot
+ify.com/artist/4W8S4RdrwDIcIaAZ7W6Ahs"},"href":"https://api.spotify.com/v1/artis
+ts/4W8S4RdrwDIcIaAZ7W6Ahs","id":"4W8S4RdrwDIcIaAZ7W6Ahs","name":"Sun-Dried Vibes
+","type":"artist","uri":"spotify:artist:4W8S4RdrwDIcIaAZ7W6Ahs"},{"external_urls
+":{"spotify":"https://open.spotify.com/artist/1JnXU7dtvE6vHDbTLJIEg5"},"href":"h
+ttps://api.spotify.com/v1/artists/1JnXU7dtvE6vHDbTLJIEg5","id":"1JnXU7dtvE6vHDbT
+LJIEg5","name":"Oogee Wawa","type":"artist","uri":"spotify:artist:1JnXU7dtvE6vHD
+bTLJIEg5"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","C
+H","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","G
+T","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","M
+X","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","S
+V","TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":245440,"exp
+licit":true,"external_ids":{"isrc":"USA2P1809430"},"external_urls":{"spotify":"h
+ttps://open.spotify.com/track/7DhdZ7Tr5jS5ZVCo1cCXSq"},"href":"https://api.spoti
+fy.com/v1/tracks/7DhdZ7Tr5jS5ZVCo1cCXSq","id":"7DhdZ7Tr5jS5ZVCo1cCXSq","is_local
+":false,"name":"Hard Liquor","popularity":32,"preview_url":"https://p.scdn.co/mp
+3-preview/e7fc1e9d08505d3673cc59f9232c803f792fe1f3?cid=15d0edaa85da443aa5dce06d0
+b391c07","track_number":4,"type":"track","uri":"spotify:track:7DhdZ7Tr5jS5ZVCo1c
+CXSq"},{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"ht
+tps://open.spotify.com/artist/37W8SKV5Vc8lcGtdyWCA5m"},"href":"https://api.spoti
+fy.com/v1/artists/37W8SKV5Vc8lcGtdyWCA5m","id":"37W8SKV5Vc8lcGtdyWCA5m","name":"
+Gary Allan","type":"artist","uri":"spotify:artist:37W8SKV5Vc8lcGtdyWCA5m"}],"ava
+ilable_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR
+","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU
+","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL
+","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW
+","US","VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/album/2iS
+hcXr1PRM3VMF15iHwP8"},"href":"https://api.spotify.com/v1/albums/2iShcXr1PRM3VMF1
+5iHwP8","id":"2iShcXr1PRM3VMF15iHwP8","images":[{"height":635,"url":"https://i.s
+cdn.co/image/a6b345d7cbf983e74dc8bb83076fa970992cb974","width":640},{"height":29
+7,"url":"https://i.scdn.co/image/61020feb2dd3a47acdfda3e1d8b699dfb1754ccc","widt
+h":300},{"height":63,"url":"https://i.scdn.co/image/52a9ca475c5c2199a186e97d4896
+a14ce5a43b87","width":64}],"name":"Living Hard","release_date":"2007-01-01","rel
+ease_date_precision":"day","total_tracks":11,"type":"album","uri":"spotify:album
+:2iShcXr1PRM3VMF15iHwP8"},"artists":[{"external_urls":{"spotify":"https://open.s
+potify.com/artist/37W8SKV5Vc8lcGtdyWCA5m"},"href":"https://api.spotify.com/v1/ar
+tists/37W8SKV5Vc8lcGtdyWCA5m","id":"37W8SKV5Vc8lcGtdyWCA5m","name":"Gary Allan",
+"type":"artist","uri":"spotify:artist:37W8SKV5Vc8lcGtdyWCA5m"}],"available_marke
+ts":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ",
+"DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE",
+"IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ",
+"PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","VN",
+"ZA"],"disc_number":1,"duration_ms":221346,"explicit":false,"external_ids":{"isr
+c":"USUM70751161"},"external_urls":{"spotify":"https://open.spotify.com/track/5i
+R3h8jV834JZLhaCBExAp"},"href":"https://api.spotify.com/v1/tracks/5iR3h8jV834JZLh
+aCBExAp","id":"5iR3h8jV834JZLhaCBExAp","is_local":false,"name":"We Touched The S
+un","popularity":28,"preview_url":null,"track_number":2,"type":"track","uri":"sp
+otify:track:5iR3h8jV834JZLhaCBExAp"},{"album":{"album_type":"album","artists":[{
+"external_urls":{"spotify":"https://open.spotify.com/artist/31z9f9AyPawiq0qlBO1M
+3i"},"href":"https://api.spotify.com/v1/artists/31z9f9AyPawiq0qlBO1M3i","id":"31
+z9f9AyPawiq0qlBO1M3i","name":"Ryan Bingham","type":"artist","uri":"spotify:artis
+t:31z9f9AyPawiq0qlBO1M3i"}],"available_markets":["CA","US"],"external_urls":{"sp
+otify":"https://open.spotify.com/album/2oLZMqHgX8H047wkXl23yC"},"href":"https://
+api.spotify.com/v1/albums/2oLZMqHgX8H047wkXl23yC","id":"2oLZMqHgX8H047wkXl23yC",
+"images":[{"height":640,"url":"https://i.scdn.co/image/b63ca444702bc8154aa3464a1
+7651c0aac9bd3c3","width":640},{"height":300,"url":"https://i.scdn.co/image/8e5f8
+69ccd5b6f89821518b680d43d6ebbb15792","width":300},{"height":64,"url":"https://i.
+scdn.co/image/d467aa82e03d02eeff832c0ac11c05f28cbf3a10","width":64}],"name":"Roa
+dhouse Sun","release_date":"2009-01-01","release_date_precision":"day","total_tr
+acks":12,"type":"album","uri":"spotify:album:2oLZMqHgX8H047wkXl23yC"},"artists":
+[{"external_urls":{"spotify":"https://open.spotify.com/artist/31z9f9AyPawiq0qlBO
+1M3i"},"href":"https://api.spotify.com/v1/artists/31z9f9AyPawiq0qlBO1M3i","id":"
+31z9f9AyPawiq0qlBO1M3i","name":"Ryan Bingham","type":"artist","uri":"spotify:art
+ist:31z9f9AyPawiq0qlBO1M3i"}],"available_markets":["CA","US"],"disc_number":1,"d
+uration_ms":272573,"explicit":false,"external_ids":{"isrc":"USUM70954614"},"exte
+rnal_urls":{"spotify":"https://open.spotify.com/track/5g7sD2Q9qH9m2qlxjXHV8z"},"
+href":"https://api.spotify.com/v1/tracks/5g7sD2Q9qH9m2qlxjXHV8z","id":"5g7sD2Q9q
+H9m2qlxjXHV8z","is_local":false,"name":"Dylan's Hard Rain","popularity":30,"prev
+iew_url":null,"track_number":2,"type":"track","uri":"spotify:track:5g7sD2Q9qH9m2
+qlxjXHV8z"},{"album":{"album_type":"single","artists":[{"external_urls":{"spotif
+y":"https://open.spotify.com/artist/2q0PlZJNGryR467EUNmWn7"},"href":"https://api
+.spotify.com/v1/artists/2q0PlZJNGryR467EUNmWn7","id":"2q0PlZJNGryR467EUNmWn7","n
+ame":"Bumpin Uglies","type":"artist","uri":"spotify:artist:2q0PlZJNGryR467EUNmWn
+7"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL"
+,"CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK"
+,"HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY"
+,"NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH"
+,"TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spotify
+.com/album/6p1qTuxcIEwLDq6MHNZpLY"},"href":"https://api.spotify.com/v1/albums/6p
+1qTuxcIEwLDq6MHNZpLY","id":"6p1qTuxcIEwLDq6MHNZpLY","images":[{"height":640,"url
+":"https://i.scdn.co/image/9effbe92e4735fd138a9327ac5c435b15103a62c","width":640
+},{"height":300,"url":"https://i.scdn.co/image/5757a45b10f7891da65c8f1e7422a5321
+9b90775","width":300},{"height":64,"url":"https://i.scdn.co/image/027251bf850028
+6210fcb77378671576e38c70be","width":64}],"name":"Hard Liquor","release_date":"20
+18-02-16","release_date_precision":"day","total_tracks":1,"type":"album","uri":"
+spotify:album:6p1qTuxcIEwLDq6MHNZpLY"},"artists":[{"external_urls":{"spotify":"h
+ttps://open.spotify.com/artist/2q0PlZJNGryR467EUNmWn7"},"href":"https://api.spot
+ify.com/v1/artists/2q0PlZJNGryR467EUNmWn7","id":"2q0PlZJNGryR467EUNmWn7","name":
+"Bumpin Uglies","type":"artist","uri":"spotify:artist:2q0PlZJNGryR467EUNmWn7"},{
+"external_urls":{"spotify":"https://open.spotify.com/artist/6py4uFIC7T6RdrZnH6hF
+YJ"},"href":"https://api.spotify.com/v1/artists/6py4uFIC7T6RdrZnH6hFYJ","id":"6p
+y4uFIC7T6RdrZnH6hFYJ","name":"Ballyhoo!","type":"artist","uri":"spotify:artist:6
+py4uFIC7T6RdrZnH6hFYJ"},{"external_urls":{"spotify":"https://open.spotify.com/ar
+tist/4W8S4RdrwDIcIaAZ7W6Ahs"},"href":"https://api.spotify.com/v1/artists/4W8S4Rd
+rwDIcIaAZ7W6Ahs","id":"4W8S4RdrwDIcIaAZ7W6Ahs","name":"Sun-Dried Vibes","type":"
+artist","uri":"spotify:artist:4W8S4RdrwDIcIaAZ7W6Ahs"},{"external_urls":{"spotif
+y":"https://open.spotify.com/artist/1JnXU7dtvE6vHDbTLJIEg5"},"href":"https://api
+.spotify.com/v1/artists/1JnXU7dtvE6vHDbTLJIEg5","id":"1JnXU7dtvE6vHDbTLJIEg5","n
+ame":"Oogee Wawa","type":"artist","uri":"spotify:artist:1JnXU7dtvE6vHDbTLJIEg5"}
+],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","C
+O","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","H
+N","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","N
+I","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","T
+R","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":245440,"explicit":tru
+e,"external_ids":{"isrc":"USA2P1808222"},"external_urls":{"spotify":"https://ope
+n.spotify.com/track/2j9ILXmOKfNGUnrEFKfasz"},"href":"https://api.spotify.com/v1/
+tracks/2j9ILXmOKfNGUnrEFKfasz","id":"2j9ILXmOKfNGUnrEFKfasz","is_local":false,"n
+ame":"Hard Liquor","popularity":21,"preview_url":"https://p.scdn.co/mp3-preview/
+e7fc1e9d08505d3673cc59f9232c803f792fe1f3?cid=15d0edaa85da443aa5dce06d0b391c07","
+track_number":1,"type":"track","uri":"spotify:track:2j9ILXmOKfNGUnrEFKfasz"},{"a
+lbum":{"album_type":"album","artists":[{"external_urls":{"spotify":"https://open
+.spotify.com/artist/6e0QWfEFmK6AguLy02mlqi"},"href":"https://api.spotify.com/v1/
+artists/6e0QWfEFmK6AguLy02mlqi","id":"6e0QWfEFmK6AguLy02mlqi","name":"Have Heart
+","type":"artist","uri":"spotify:artist:6e0QWfEFmK6AguLy02mlqi"}],"available_mar
+kets":["CA","US"],"external_urls":{"spotify":"https://open.spotify.com/album/3Pp
+hpLVkZKWvcJoPnpiDvI"},"href":"https://api.spotify.com/v1/albums/3PphpLVkZKWvcJoP
+npiDvI","id":"3PphpLVkZKWvcJoPnpiDvI","images":[{"height":640,"url":"https://i.s
+cdn.co/image/0b939a68d7ccd171bc8d90ba2c63f6855442390e","width":640},{"height":30
+0,"url":"https://i.scdn.co/image/c64856c7a9af094a0af539c65df2377110a6e350","widt
+h":300},{"height":64,"url":"https://i.scdn.co/image/dc5e31c8cc62df52a88b0476df36
+e6cf14733f9f","width":64}],"name":"Songs To Scream At The Sun","release_date":"2
+008-07-08","release_date_precision":"day","total_tracks":10,"type":"album","uri"
+:"spotify:album:3PphpLVkZKWvcJoPnpiDvI"},"artists":[{"external_urls":{"spotify":
+"https://open.spotify.com/artist/6e0QWfEFmK6AguLy02mlqi"},"href":"https://api.sp
+otify.com/v1/artists/6e0QWfEFmK6AguLy02mlqi","id":"6e0QWfEFmK6AguLy02mlqi","name
+":"Have Heart","type":"artist","uri":"spotify:artist:6e0QWfEFmK6AguLy02mlqi"}],"
+available_markets":["CA","US"],"disc_number":1,"duration_ms":178400,"explicit":t
+rue,"external_ids":{"isrc":"US2Y70800052"},"external_urls":{"spotify":"https://o
+pen.spotify.com/track/3qtmPVxAxZwKKznmAQgy92"},"href":"https://api.spotify.com/v
+1/tracks/3qtmPVxAxZwKKznmAQgy92","id":"3qtmPVxAxZwKKznmAQgy92","is_local":false,
+"name":"Hard Bark On The Family Tree","popularity":25,"preview_url":null,"track_
+number":9,"type":"track","uri":"spotify:track:3qtmPVxAxZwKKznmAQgy92"},{"album":
+{"album_type":"compilation","artists":[{"external_urls":{"spotify":"https://open
+.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"},"href":"https://api.spotify.com/v1/
+artists/0LyfQWJT6nXafLPZqxe9Of","id":"0LyfQWJT6nXafLPZqxe9Of","name":"Various Ar
+tists","type":"artist","uri":"spotify:artist:0LyfQWJT6nXafLPZqxe9Of"}],"availabl
+e_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY
+","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID
+","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO
+","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US
+","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/album/2ML
+jvPwpwdqXgnogOPGnzi"},"href":"https://api.spotify.com/v1/albums/2MLjvPwpwdqXgnog
+OPGnzi","id":"2MLjvPwpwdqXgnogOPGnzi","images":[{"height":640,"url":"https://i.s
+cdn.co/image/7d686695abc4441a7f8b298a6393afb19ff23bc7","width":640},{"height":30
+0,"url":"https://i.scdn.co/image/6ea66d5bbc065507d3700d48f2a79ab6c2af9ba0","widt
+h":300},{"height":64,"url":"https://i.scdn.co/image/21e5ef1a9c7c4f3895d01c61688d
+d1d861261962","width":64}],"name":"Sun Fire Eurobeat","release_date":"2012-03-18
+","release_date_precision":"day","total_tracks":11,"type":"album","uri":"spotify
+:album:2MLjvPwpwdqXgnogOPGnzi"},"artists":[{"external_urls":{"spotify":"https://
+open.spotify.com/artist/28pGQt5QCfOKqb6PJ8e3po"},"href":"https://api.spotify.com
+/v1/artists/28pGQt5QCfOKqb6PJ8e3po","id":"28pGQt5QCfOKqb6PJ8e3po","name":"Rich H
+ard","type":"artist","uri":"spotify:artist:28pGQt5QCfOKqb6PJ8e3po"}],"available_
+markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY",
+"CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID",
+"IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO",
+"NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US",
+"UY","VN","ZA"],"disc_number":1,"duration_ms":274561,"explicit":false,"external_
+ids":{"isrc":"TCABE1278946"},"external_urls":{"spotify":"https://open.spotify.co
+m/track/5PffJNWs35PJcshZdj5oLa"},"href":"https://api.spotify.com/v1/tracks/5PffJ
+NWs35PJcshZdj5oLa","id":"5PffJNWs35PJcshZdj5oLa","is_local":false,"name":"On You
+r Wings","popularity":31,"preview_url":"https://p.scdn.co/mp3-preview/5600c0c03e
+ec0c0cc6706867e36bd5c546b3f83d?cid=15d0edaa85da443aa5dce06d0b391c07","track_numb
+er":10,"type":"track","uri":"spotify:track:5PffJNWs35PJcshZdj5oLa"},{"album":{"a
+lbum_type":"single","artists":[{"external_urls":{"spotify":"https://open.spotify
+.com/artist/3LMhH2ziOYh9UQWWCBm5KS"},"href":"https://api.spotify.com/v1/artists/
+3LMhH2ziOYh9UQWWCBm5KS","id":"3LMhH2ziOYh9UQWWCBm5KS","name":"Dailucia","type":"
+artist","uri":"spotify:artist:3LMhH2ziOYh9UQWWCBm5KS"}],"available_markets":["AD
+","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK
+","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS
+","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE
+","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA
+"],"external_urls":{"spotify":"https://open.spotify.com/album/16pJ2dOSpikGGKeH2P
+sUWd"},"href":"https://api.spotify.com/v1/albums/16pJ2dOSpikGGKeH2PsUWd","id":"1
+6pJ2dOSpikGGKeH2PsUWd","images":[{"height":640,"url":"https://i.scdn.co/image/b7
+a87741570f12684db6ba4ed90f1f77cd2e332f","width":640},{"height":300,"url":"https:
+//i.scdn.co/image/92baee5c656603ccca315df86cf38139e739ffd9","width":300},{"heigh
+t":64,"url":"https://i.scdn.co/image/8a1335d1ff6742be047b008dee9321a0f4218258","
+width":64}],"name":"Beneath The Rising Sun","release_date":"2016-11-14","release
+_date_precision":"day","total_tracks":2,"type":"album","uri":"spotify:album:16pJ
+2dOSpikGGKeH2PsUWd"},"artists":[{"external_urls":{"spotify":"https://open.spotif
+y.com/artist/3LMhH2ziOYh9UQWWCBm5KS"},"href":"https://api.spotify.com/v1/artists
+/3LMhH2ziOYh9UQWWCBm5KS","id":"3LMhH2ziOYh9UQWWCBm5KS","name":"Dailucia","type":
+"artist","uri":"spotify:artist:3LMhH2ziOYh9UQWWCBm5KS"}],"available_markets":["A
+D","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","D
+K","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","I
+S","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","P
+E","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","Z
+A"],"disc_number":1,"duration_ms":211240,"explicit":false,"external_ids":{"isrc"
+:"NLE801600749"},"external_urls":{"spotify":"https://open.spotify.com/track/2Rkj
+GiTxTECpVeAP3dEL1u"},"href":"https://api.spotify.com/v1/tracks/2RkjGiTxTECpVeAP3
+dEL1u","id":"2RkjGiTxTECpVeAP3dEL1u","is_local":false,"name":"Beneath The Rising
+ Sun (Hard Remix) [Edit]","popularity":31,"preview_url":"https://p.scdn.co/mp3-p
+review/dd9c4772908de3b0512d1d6f3983e03627127dae?cid=15d0edaa85da443aa5dce06d0b39
+1c07","track_number":2,"type":"track","uri":"spotify:track:2RkjGiTxTECpVeAP3dEL1
+u"},{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"https
+://open.spotify.com/artist/2SGFnb6c73UJd1vT6aGBMl"},"href":"https://api.spotify.
+com/v1/artists/2SGFnb6c73UJd1vT6aGBMl","id":"2SGFnb6c73UJd1vT6aGBMl","name":"Tro
+pidelic","type":"artist","uri":"spotify:artist:2SGFnb6c73UJd1vT6aGBMl"}],"availa
+ble_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","
+CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","
+ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","
+NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","
+US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/album/2
+DcHJvasK18UjPzOqI64pl"},"href":"https://api.spotify.com/v1/albums/2DcHJvasK18UjP
+zOqI64pl","id":"2DcHJvasK18UjPzOqI64pl","images":[{"height":640,"url":"https://i
+.scdn.co/image/344d6f8c6a7aa91934fc3de6b17d22c902822e34","width":640},{"height":
+300,"url":"https://i.scdn.co/image/e5ecab62dfac590d31ce28459e9e10e2d8200076","wi
+dth":300},{"height":64,"url":"https://i.scdn.co/image/64437ac1320f600207c11c85af
+d9ae2e76815f7e","width":64}],"name":"The Hard North","release_date":"2016-12-02"
+,"release_date_precision":"day","total_tracks":8,"type":"album","uri":"spotify:a
+lbum:2DcHJvasK18UjPzOqI64pl"},"artists":[{"external_urls":{"spotify":"https://op
+en.spotify.com/artist/2SGFnb6c73UJd1vT6aGBMl"},"href":"https://api.spotify.com/v
+1/artists/2SGFnb6c73UJd1vT6aGBMl","id":"2SGFnb6c73UJd1vT6aGBMl","name":"Tropidel
+ic","type":"artist","uri":"spotify:artist:2SGFnb6c73UJd1vT6aGBMl"},{"external_ur
+ls":{"spotify":"https://open.spotify.com/artist/4W8S4RdrwDIcIaAZ7W6Ahs"},"href":
+"https://api.spotify.com/v1/artists/4W8S4RdrwDIcIaAZ7W6Ahs","id":"4W8S4RdrwDIcIa
+AZ7W6Ahs","name":"Sun-Dried Vibes","type":"artist","uri":"spotify:artist:4W8S4Rd
+rwDIcIaAZ7W6Ahs"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR",
+"CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB",
+"GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC",
+"MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG",
+"SK","SV","TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":1912
+66,"explicit":true,"external_ids":{"isrc":"ushm81689720"},"external_urls":{"spot
+ify":"https://open.spotify.com/track/3dzwL1SGD0wcrvdIUnKIHY"},"href":"https://ap
+i.spotify.com/v1/tracks/3dzwL1SGD0wcrvdIUnKIHY","id":"3dzwL1SGD0wcrvdIUnKIHY","i
+s_local":false,"name":"Atonement","popularity":18,"preview_url":"https://p.scdn.
+co/mp3-preview/b86407957ceb9dc7ab8498e4181f2b01e6a13ead?cid=15d0edaa85da443aa5dc
+e06d0b391c07","track_number":1,"type":"track","uri":"spotify:track:3dzwL1SGD0wcr
+vdIUnKIHY"},{"album":{"album_type":"compilation","artists":[{"external_urls":{"s
+potify":"https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"},"href":"https:
+//api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of","id":"0LyfQWJT6nXafLPZqxe9O
+f","name":"Various Artists","type":"artist","uri":"spotify:artist:0LyfQWJT6nXafL
+PZqxe9Of"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","C
+H","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","G
+T","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","M
+X","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","S
+V","TH","TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.
+spotify.com/album/2MLjvPwpwdqXgnogOPGnzi"},"href":"https://api.spotify.com/v1/al
+bums/2MLjvPwpwdqXgnogOPGnzi","id":"2MLjvPwpwdqXgnogOPGnzi","images":[{"height":6
+40,"url":"https://i.scdn.co/image/7d686695abc4441a7f8b298a6393afb19ff23bc7","wid
+th":640},{"height":300,"url":"https://i.scdn.co/image/6ea66d5bbc065507d3700d48f2
+a79ab6c2af9ba0","width":300},{"height":64,"url":"https://i.scdn.co/image/21e5ef1
+a9c7c4f3895d01c61688dd1d861261962","width":64}],"name":"Sun Fire Eurobeat","rele
+ase_date":"2012-03-18","release_date_precision":"day","total_tracks":11,"type":"
+album","uri":"spotify:album:2MLjvPwpwdqXgnogOPGnzi"},"artists":[{"external_urls"
+:{"spotify":"https://open.spotify.com/artist/28pGQt5QCfOKqb6PJ8e3po"},"href":"ht
+tps://api.spotify.com/v1/artists/28pGQt5QCfOKqb6PJ8e3po","id":"28pGQt5QCfOKqb6PJ
+8e3po","name":"Rich Hard","type":"artist","uri":"spotify:artist:28pGQt5QCfOKqb6P
+J8e3po"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH"
+,"CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT"
+,"HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX"
+,"MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV"
+,"TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":251946,"expli
+cit":false,"external_ids":{"isrc":"TCABE1278941"},"external_urls":{"spotify":"ht
+tps://open.spotify.com/track/79ybbmUi7ug4obd6nmTzbu"},"href":"https://api.spotif
+y.com/v1/tracks/79ybbmUi7ug4obd6nmTzbu","id":"79ybbmUi7ug4obd6nmTzbu","is_local"
+:false,"name":"Tell Me Why","popularity":24,"preview_url":"https://p.scdn.co/mp3
+-preview/ce9edfcb882f034b49d1ed55ed571d42ba8fcee2?cid=15d0edaa85da443aa5dce06d0b
+391c07","track_number":7,"type":"track","uri":"spotify:track:79ybbmUi7ug4obd6nmT
+zbu"},{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"htt
+ps://open.spotify.com/artist/31AGUo9XdSojGBaIRvLOPl"},"href":"https://api.spotif
+y.com/v1/artists/31AGUo9XdSojGBaIRvLOPl","id":"31AGUo9XdSojGBaIRvLOPl","name":"L
+ead into Gold","type":"artist","uri":"spotify:artist:31AGUo9XdSojGBaIRvLOPl"}],"
+available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO",
+"CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN",
+"HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI",
+"NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR",
+"TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/a
+lbum/1ecJBDweq0PYcNhVKSV9w8"},"href":"https://api.spotify.com/v1/albums/1ecJBDwe
+q0PYcNhVKSV9w8","id":"1ecJBDweq0PYcNhVKSV9w8","images":[{"height":640,"url":"htt
+ps://i.scdn.co/image/8fe3702e841bb64abdff2793a6404cef91471ded","width":640},{"he
+ight":300,"url":"https://i.scdn.co/image/1782500112156b41bd91fee563cebbf75359e31
+1","width":300},{"height":64,"url":"https://i.scdn.co/image/d3ec0ab4091e5fa29177
+e6caa572b9dce974cbbf","width":64}],"name":"The Sun Behind the Sun","release_date
+":"2018-07-28","release_date_precision":"day","total_tracks":8,"type":"album","u
+ri":"spotify:album:1ecJBDweq0PYcNhVKSV9w8"},"artists":[{"external_urls":{"spotif
+y":"https://open.spotify.com/artist/31AGUo9XdSojGBaIRvLOPl"},"href":"https://api
+.spotify.com/v1/artists/31AGUo9XdSojGBaIRvLOPl","id":"31AGUo9XdSojGBaIRvLOPl","n
+ame":"Lead into Gold","type":"artist","uri":"spotify:artist:31AGUo9XdSojGBaIRvLO
+Pl"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL
+","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK
+","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY
+","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH
+","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":308545,"explicit"
+:false,"external_ids":{"isrc":"QZAP31800001"},"external_urls":{"spotify":"https:
+//open.spotify.com/track/2ouvZU0rpfEDavM3UWs5vy"},"href":"https://api.spotify.co
+m/v1/tracks/2ouvZU0rpfEDavM3UWs5vy","id":"2ouvZU0rpfEDavM3UWs5vy","is_local":fal
+se,"name":"Hard Won Decay","popularity":17,"preview_url":"https://p.scdn.co/mp3-
+preview/ef4659e427eba6ea169c4c4057427a9fcc4887af?cid=15d0edaa85da443aa5dce06d0b3
+91c07","track_number":1,"type":"track","uri":"spotify:track:2ouvZU0rpfEDavM3UWs5
+vy"},{"album":{"album_type":"album","artists":[{"external_urls":{"spotify":"http
+s://open.spotify.com/artist/32HPpJAhgnGPT3V7UOggzi"},"href":"https://api.spotify
+.com/v1/artists/32HPpJAhgnGPT3V7UOggzi","id":"32HPpJAhgnGPT3V7UOggzi","name":"Pa
+ul Revere & The Raiders","type":"artist","uri":"spotify:artist:32HPpJAhgnGPT3V7U
+Oggzi"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH",
+"CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT",
+"HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX",
+"MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV",
+"TH","TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"https://open.spo
+tify.com/album/4L7qvXIOxlskCG1H171Mwv"},"href":"https://api.spotify.com/v1/album
+s/4L7qvXIOxlskCG1H171Mwv","id":"4L7qvXIOxlskCG1H171Mwv","images":[{"height":640,
+"url":"https://i.scdn.co/image/c06ee115c29d80b143cac6f8f1e02cc2c52ba5d5","width"
+:640},{"height":300,"url":"https://i.scdn.co/image/c2d2f3d68e0a7cfdfb31f4dacf153
+570ce34da77","width":300},{"height":64,"url":"https://i.scdn.co/image/6cf2d7f138
+5d1b56cacca0380ffec83b16d823ad","width":64}],"name":"Hard 'N' Heavy (With Marshm
+allow)","release_date":"1967","release_date_precision":"year","total_tracks":15,
+"type":"album","uri":"spotify:album:4L7qvXIOxlskCG1H171Mwv"},"artists":[{"extern
+al_urls":{"spotify":"https://open.spotify.com/artist/32HPpJAhgnGPT3V7UOggzi"},"h
+ref":"https://api.spotify.com/v1/artists/32HPpJAhgnGPT3V7UOggzi","id":"32HPpJAhg
+nGPT3V7UOggzi","name":"Paul Revere & The Raiders","type":"artist","uri":"spotify
+:artist:32HPpJAhgnGPT3V7UOggzi"}],"available_markets":["AD","AR","AT","AU","BE",
+"BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES",
+"FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT",
+"LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY",
+"RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"du
+ration_ms":168000,"explicit":false,"external_ids":{"isrc":"USSM10021640"},"exter
+nal_urls":{"spotify":"https://open.spotify.com/track/0ZwYJy7tXNTmEwbUtnZwM7"},"h
+ref":"https://api.spotify.com/v1/tracks/0ZwYJy7tXNTmEwbUtnZwM7","id":"0ZwYJy7tXN
+TmEwbUtnZwM7","is_local":false,"name":"Mr. Sun, Mr. Moon","popularity":16,"previ
+ew_url":"https://p.scdn.co/mp3-preview/f38acfff3e777a9313de29ee955e9e07a90d5113?
+cid=15d0edaa85da443aa5dce06d0b391c07","track_number":1,"type":"track","uri":"spo
+tify:track:0ZwYJy7tXNTmEwbUtnZwM7"},{"album":{"album_type":"single","artists":[{
+"external_urls":{"spotify":"https://open.spotify.com/artist/10xsuRNvidaOLxWd3fRI
+el"},"href":"https://api.spotify.com/v1/artists/10xsuRNvidaOLxWd3fRIel","id":"10
+xsuRNvidaOLxWd3fRIel","name":"Dalshabet","type":"artist","uri":"spotify:artist:1
+0xsuRNvidaOLxWd3fRIel"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO"
+,"BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR"
+,"GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV"
+,"MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE"
+,"SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"external_urls":{"spotify":"
+https://open.spotify.com/album/68MTwr1dS8MNXJHIo3Orec"},"href":"https://api.spot
+ify.com/v1/albums/68MTwr1dS8MNXJHIo3Orec","id":"68MTwr1dS8MNXJHIo3Orec","images"
+:[{"height":640,"url":"https://i.scdn.co/image/498bc9141232fe30bade1ec0e82475df6
+8254d41","width":640},{"height":300,"url":"https://i.scdn.co/image/2a170131ea63d
+ba58b2e9a517f15affbd1471766","width":300},{"height":64,"url":"https://i.scdn.co/
+image/b1268bcf17d9dcbd5073ec8fba66a6f7a5631c84","width":64}],"name":"FRI. SAT. S
+UN","release_date":"2016-09-29","release_date_precision":"day","total_tracks":5,
+"type":"album","uri":"spotify:album:68MTwr1dS8MNXJHIo3Orec"},"artists":[{"extern
+al_urls":{"spotify":"https://open.spotify.com/artist/10xsuRNvidaOLxWd3fRIel"},"h
+ref":"https://api.spotify.com/v1/artists/10xsuRNvidaOLxWd3fRIel","id":"10xsuRNvi
+daOLxWd3fRIel","name":"Dalshabet","type":"artist","uri":"spotify:artist:10xsuRNv
+idaOLxWd3fRIel"}],"available_markets":["AD","AR","AT","AU","BE","BG","BO","BR","
+CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","FR","GB","
+GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","
+MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","SE","SG","
+SK","SV","TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_ms":20288
+2,"explicit":false,"external_ids":{"isrc":"KRA381601833"},"external_urls":{"spot
+ify":"https://open.spotify.com/track/4J0N0Jtx1pTlvtPRR8xN94"},"href":"https://ap
+i.spotify.com/v1/tracks/4J0N0Jtx1pTlvtPRR8xN94","id":"4J0N0Jtx1pTlvtPRR8xN94","i
+s_local":false,"name":"HARD 2 LOVE","popularity":16,"preview_url":"https://p.scd
+n.co/mp3-preview/9569b107a1d8fd0392ab34372754bcc673f879b2?cid=15d0edaa85da443aa5
+dce06d0b391c07","track_number":3,"type":"track","uri":"spotify:track:4J0N0Jtx1pT
+lvtPRR8xN94"},{"album":{"album_type":"album","artists":[{"external_urls":{"spoti
+fy":"https://open.spotify.com/artist/3CYSRCHfilgR8DSbkCMp5j"},"href":"https://ap
+i.spotify.com/v1/artists/3CYSRCHfilgR8DSbkCMp5j","id":"3CYSRCHfilgR8DSbkCMp5j","
+name":"Cowboy Junkies","type":"artist","uri":"spotify:artist:3CYSRCHfilgR8DSbkCM
+p5j"}],"available_markets":["AD","AR","BE","BG","BO","BR","CA","CH","CL","CO","C
+R","CY","CZ","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","I
+D","IE","IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","N
+O","PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","U
+Y","VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/album/70WlSqx
+2xyz9t3fD97Kdx4"},"href":"https://api.spotify.com/v1/albums/70WlSqx2xyz9t3fD97Kd
+x4","id":"70WlSqx2xyz9t3fD97Kdx4","images":[{"height":640,"url":"https://i.scdn.
+co/image/b062e314bbe10a493c7ae52e06d35b11d6959781","width":624},{"height":300,"u
+rl":"https://i.scdn.co/image/5f2cf8a5898c826440b75fe19fb8ba340fe8b49f","width":2
+92},{"height":64,"url":"https://i.scdn.co/image/750f1d0b98a045c95cca2bcbccce5058
+855654cd","width":62}],"name":"Pale Sun Crescent Moon","release_date":"1993-11-2
+3","release_date_precision":"day","total_tracks":12,"type":"album","uri":"spotif
+y:album:70WlSqx2xyz9t3fD97Kdx4"},"artists":[{"external_urls":{"spotify":"https:/
+/open.spotify.com/artist/3CYSRCHfilgR8DSbkCMp5j"},"href":"https://api.spotify.co
+m/v1/artists/3CYSRCHfilgR8DSbkCMp5j","id":"3CYSRCHfilgR8DSbkCMp5j","name":"Cowbo
+y Junkies","type":"artist","uri":"spotify:artist:3CYSRCHfilgR8DSbkCMp5j"}],"avai
+lable_markets":["AD","AR","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ"
+,"DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL"
+,"IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","PA","PE"
+,"PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"
+],"disc_number":1,"duration_ms":277533,"explicit":false,"external_ids":{"isrc":"
+CAR129300064"},"external_urls":{"spotify":"https://open.spotify.com/track/4sYmg1
+TeWgSesafR3eWSxf"},"href":"https://api.spotify.com/v1/tracks/4sYmg1TeWgSesafR3eW
+Sxf","id":"4sYmg1TeWgSesafR3eWSxf","is_local":false,"name":"Hard To Explain","po
+pularity":14,"preview_url":"https://p.scdn.co/mp3-preview/fcdcd10c71bc49b776efc7
+3764db9486ca411369?cid=15d0edaa85da443aa5dce06d0b391c07","track_number":10,"type
+":"track","uri":"spotify:track:4sYmg1TeWgSesafR3eWSxf"},{"album":{"album_type":"
+album","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6
+ghiUK2ao3KcmmDt2pbNzN"},"href":"https://api.spotify.com/v1/artists/6ghiUK2ao3Kcm
+mDt2pbNzN","id":"6ghiUK2ao3KcmmDt2pbNzN","name":"Idris Muhammad","type":"artist"
+,"uri":"spotify:artist:6ghiUK2ao3KcmmDt2pbNzN"}],"available_markets":["US"],"ext
+ernal_urls":{"spotify":"https://open.spotify.com/album/6pC0QxD8NR7f1R5HzJ4q5U"},
+"href":"https://api.spotify.com/v1/albums/6pC0QxD8NR7f1R5HzJ4q5U","id":"6pC0QxD8
+NR7f1R5HzJ4q5U","images":[{"height":640,"url":"https://i.scdn.co/image/9f3f15a45
+7aafdf9134fc0529093cf5bcfc267db","width":640},{"height":300,"url":"https://i.scd
+n.co/image/ab74a6a9f58fcf41aaa299405a08c07680db3f06","width":300},{"height":64,"
+url":"https://i.scdn.co/image/7f8721961063d8e944aed35e819b150ca9011100","width":
+64}],"name":"House of the Rising Sun","release_date":"1976","release_date_precis
+ion":"year","total_tracks":8,"type":"album","uri":"spotify:album:6pC0QxD8NR7f1R5
+HzJ4q5U"},"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artis
+t/6ghiUK2ao3KcmmDt2pbNzN"},"href":"https://api.spotify.com/v1/artists/6ghiUK2ao3
+KcmmDt2pbNzN","id":"6ghiUK2ao3KcmmDt2pbNzN","name":"Idris Muhammad","type":"arti
+st","uri":"spotify:artist:6ghiUK2ao3KcmmDt2pbNzN"}],"available_markets":["US"],"
+disc_number":1,"duration_ms":288840,"explicit":false,"external_ids":{"isrc":"USS
+M17601080"},"external_urls":{"spotify":"https://open.spotify.com/track/4epJMBJq4
+S1WMARIvmPFSd"},"href":"https://api.spotify.com/v1/tracks/4epJMBJq4S1WMARIvmPFSd
+","id":"4epJMBJq4S1WMARIvmPFSd","is_local":false,"name":"Hard to Face the Music"
+,"popularity":10,"preview_url":"https://p.scdn.co/mp3-preview/17357837d65ad9b7f4
+3ba6bbf9a80233c16abced?cid=15d0edaa85da443aa5dce06d0b391c07","track_number":3,"t
+ype":"track","uri":"spotify:track:4epJMBJq4S1WMARIvmPFSd"},{"album":{"album_type
+":"album","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artis
+t/7CnmC3gRgLev4I609BrSxj"},"href":"https://api.spotify.com/v1/artists/7CnmC3gRgL
+ev4I609BrSxj","id":"7CnmC3gRgLev4I609BrSxj","name":"Lou Gramm","type":"artist","
+uri":"spotify:artist:7CnmC3gRgLev4I609BrSxj"}],"available_markets":["AD","AR","A
+T","AU","BE","BG","BO","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","E
+E","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","L
+I","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","P
+T","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"external_u
+rls":{"spotify":"https://open.spotify.com/album/6rbyua2300n25agfd9MfKK"},"href":
+"https://api.spotify.com/v1/albums/6rbyua2300n25agfd9MfKK","id":"6rbyua2300n25ag
+fd9MfKK","images":[{"height":640,"url":"https://i.scdn.co/image/dbd2367c852f07d1
+ecec7d0affc6dc126314b869","width":640},{"height":300,"url":"https://i.scdn.co/im
+age/5560a5c55986c806db73bbcf10f4d99cd7cabbe1","width":300},{"height":64,"url":"h
+ttps://i.scdn.co/image/341a6f5f116a49c84b4f65c4d9281ac087e4aeca","width":64}],"n
+ame":"Long Hard Look","release_date":"1989","release_date_precision":"year","tot
+al_tracks":10,"type":"album","uri":"spotify:album:6rbyua2300n25agfd9MfKK"},"arti
+sts":[{"external_urls":{"spotify":"https://open.spotify.com/artist/7CnmC3gRgLev4
+I609BrSxj"},"href":"https://api.spotify.com/v1/artists/7CnmC3gRgLev4I609BrSxj","
+id":"7CnmC3gRgLev4I609BrSxj","name":"Lou Gramm","type":"artist","uri":"spotify:a
+rtist:7CnmC3gRgLev4I609BrSxj"}],"available_markets":["AD","AR","AT","AU","BE","B
+G","BO","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO","EC","EE","ES","FI","F
+R","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT","JP","LI","LT","LU","L
+V","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH","PL","PT","PY","RO","S
+E","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"disc_number":1,"duration_
+ms":311200,"explicit":false,"external_ids":{"isrc":"USAT20502497"},"external_url
+s":{"spotify":"https://open.spotify.com/track/3Ap3yukJvk90fYotQuySHm"},"href":"h
+ttps://api.spotify.com/v1/tracks/3Ap3yukJvk90fYotQuySHm","id":"3Ap3yukJvk90fYotQ
+uySHm","is_local":false,"name":"Warmest Rising Sun","popularity":13,"preview_url
+":"https://p.scdn.co/mp3-preview/799a9bebe3215158be3c74b69b3db963d01820da?cid=15
+d0edaa85da443aa5dce06d0b391c07","track_number":7,"type":"track","uri":"spotify:t
+rack:3Ap3yukJvk90fYotQuySHm"},{"album":{"album_type":"album","artists":[{"extern
+al_urls":{"spotify":"https://open.spotify.com/artist/5Y1mtkFXBCx0dyL93Wt54T"},"h
+ref":"https://api.spotify.com/v1/artists/5Y1mtkFXBCx0dyL93Wt54T","id":"5Y1mtkFXB
+Cx0dyL93Wt54T","name":"Otis Taylor","type":"artist","uri":"spotify:artist:5Y1mtk
+FXBCx0dyL93Wt54T"}],"available_markets":["CA","US"],"external_urls":{"spotify":"
+https://open.spotify.com/album/1i8iwrlxbnQEttO0uSMZ7h"},"href":"https://api.spot
+ify.com/v1/albums/1i8iwrlxbnQEttO0uSMZ7h","id":"1i8iwrlxbnQEttO0uSMZ7h","images"
+:[{"height":640,"url":"https://i.scdn.co/image/c9ac8dbb8cef52c32e0939f0cd30be029
+22c4f8e","width":640},{"height":300,"url":"https://i.scdn.co/image/9bc238ac42d12
+331f6f167e117bbcd7f270af85d","width":300},{"height":64,"url":"https://i.scdn.co/
+image/a497722d72d7fce23d450f8b58b907135345e27b","width":64}],"name":"Recapturing
+ The Banjo","release_date":"2008-01-01","release_date_precision":"day","total_tr
+acks":14,"type":"album","uri":"spotify:album:1i8iwrlxbnQEttO0uSMZ7h"},"artists":
+[{"external_urls":{"spotify":"https://open.spotify.com/artist/5Y1mtkFXBCx0dyL93W
+t54T"},"href":"https://api.spotify.com/v1/artists/5Y1mtkFXBCx0dyL93Wt54T","id":"
+5Y1mtkFXBCx0dyL93Wt54T","name":"Otis Taylor","type":"artist","uri":"spotify:arti
+st:5Y1mtkFXBCx0dyL93Wt54T"},{"external_urls":{"spotify":"https://open.spotify.co
+m/artist/1pmIo6ASaJG24wmYoyxjwG"},"href":"https://api.spotify.com/v1/artists/1pm
+Io6ASaJG24wmYoyxjwG","id":"1pmIo6ASaJG24wmYoyxjwG","name":"Alvin Youngblood Hart
+","type":"artist","uri":"spotify:artist:1pmIo6ASaJG24wmYoyxjwG"},{"external_urls
+":{"spotify":"https://open.spotify.com/artist/1TQtbRQbaXw5CeN3mC0DJH"},"href":"h
+ttps://api.spotify.com/v1/artists/1TQtbRQbaXw5CeN3mC0DJH","id":"1TQtbRQbaXw5CeN3
+mC0DJH","name":"Corey Harris","type":"artist","uri":"spotify:artist:1TQtbRQbaXw5
+CeN3mC0DJH"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2Dy0UL
+pN8JQny2uA6OBomZ"},"href":"https://api.spotify.com/v1/artists/2Dy0ULpN8JQny2uA6O
+BomZ","id":"2Dy0ULpN8JQny2uA6OBomZ","name":"Don Vappie","type":"artist","uri":"s
+potify:artist:2Dy0ULpN8JQny2uA6OBomZ"},{"external_urls":{"spotify":"https://open
+.spotify.com/artist/3rHAg1yXbyNq0mnPgsVahe"},"href":"https://api.spotify.com/v1/
+artists/3rHAg1yXbyNq0mnPgsVahe","id":"3rHAg1yXbyNq0mnPgsVahe","name":"Cassie Tay
+lor","type":"artist","uri":"spotify:artist:3rHAg1yXbyNq0mnPgsVahe"}],"available_
+markets":["CA","US"],"disc_number":1,"duration_ms":232586,"explicit":false,"exte
+rnal_ids":{"isrc":"USTE10766701"},"external_urls":{"spotify":"https://open.spoti
+fy.com/track/2nPl4lCuSbFXIXtqt7Xqws"},"href":"https://api.spotify.com/v1/tracks/
+2nPl4lCuSbFXIXtqt7Xqws","id":"2nPl4lCuSbFXIXtqt7Xqws","is_local":false,"name":"R
+an So Hard The Sun Went Down","popularity":11,"preview_url":null,"track_number":
+1,"type":"track","uri":"spotify:track:2nPl4lCuSbFXIXtqt7Xqws"},{"album":{"album_
+type":"compilation","artists":[{"external_urls":{"spotify":"https://open.spotify
+.com/artist/0LyfQWJT6nXafLPZqxe9Of"},"href":"https://api.spotify.com/v1/artists/
+0LyfQWJT6nXafLPZqxe9Of","id":"0LyfQWJT6nXafLPZqxe9Of","name":"Various Artists","
+type":"artist","uri":"spotify:artist:0LyfQWJT6nXafLPZqxe9Of"}],"available_market
+s":["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","
+DE","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","
+IL","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","
+PA","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","
+VN","ZA"],"external_urls":{"spotify":"https://open.spotify.com/album/3XsNhLyG1Au
+8DqTPa4U4Jb"},"href":"https://api.spotify.com/v1/albums/3XsNhLyG1Au8DqTPa4U4Jb",
+"id":"3XsNhLyG1Au8DqTPa4U4Jb","images":[{"height":640,"url":"https://i.scdn.co/i
+mage/b5263b1e868d3e5559b15d405ecc1e4ecf4138fc","width":640},{"height":300,"url":
+"https://i.scdn.co/image/a284c1f0133e7e9e502948c760dc4b3f543ae926","width":300},
+{"height":64,"url":"https://i.scdn.co/image/7039d0e4e45de404ad773b0697c0667ec5f6
+4952","width":64}],"name":"Sun and Moon","release_date":"2015-02-09","release_da
+te_precision":"day","total_tracks":10,"type":"album","uri":"spotify:album:3XsNhL
+yG1Au8DqTPa4U4Jb"},"artists":[{"external_urls":{"spotify":"https://open.spotify.
+com/artist/3kP6VoqaX2hH95xciJq7MW"},"href":"https://api.spotify.com/v1/artists/3
+kP6VoqaX2hH95xciJq7MW","id":"3kP6VoqaX2hH95xciJq7MW","name":"Hard Day Sound","ty
+pe":"artist","uri":"spotify:artist:3kP6VoqaX2hH95xciJq7MW"}],"available_markets"
+:["AD","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE
+","DK","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL
+","IS","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA
+","PE","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN
+","ZA"],"disc_number":1,"duration_ms":166217,"explicit":false,"external_ids":{"i
+src":"QM6N21449052"},"external_urls":{"spotify":"https://open.spotify.com/track/
+7Ic9CyrBAs0VldBCCGtmn8"},"href":"https://api.spotify.com/v1/tracks/7Ic9CyrBAs0Vl
+dBCCGtmn8","id":"7Ic9CyrBAs0VldBCCGtmn8","is_local":false,"name":"A Hard Day","p
+opularity":9,"preview_url":"https://p.scdn.co/mp3-preview/cf5ee90354d6fb1ad56a15
+2891fc23933d9968fb?cid=15d0edaa85da443aa5dce06d0b391c07","track_number":7,"type"
+:"track","uri":"spotify:track:7Ic9CyrBAs0VldBCCGtmn8"},{"album":{"album_type":"s
+ingle","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/5
+u6wPDvT0wrNe3PNzXos9Q"},"href":"https://api.spotify.com/v1/artists/5u6wPDvT0wrNe
+3PNzXos9Q","id":"5u6wPDvT0wrNe3PNzXos9Q","name":"Mockingbird Sun","type":"artist
+","uri":"spotify:artist:5u6wPDvT0wrNe3PNzXos9Q"}],"available_markets":["AD","AR"
+,"AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK","DO"
+,"EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS","IT"
+,"JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE","PH"
+,"PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"],"ex
+ternal_urls":{"spotify":"https://open.spotify.com/album/69F3hueSJEnDWO7G5GLDlW"}
+,"href":"https://api.spotify.com/v1/albums/69F3hueSJEnDWO7G5GLDlW","id":"69F3hue
+SJEnDWO7G5GLDlW","images":[{"height":640,"url":"https://i.scdn.co/image/351a514e
+dfaef7a36d8ff2655ae7b275eff34227","width":640},{"height":300,"url":"https://i.sc
+dn.co/image/87a6f170bcdf86f9eb1c11bbf57f760cccdab12f","width":300},{"height":64,
+"url":"https://i.scdn.co/image/b326366474ba7e8ee45416f0e5462d5e3cb738bb","width"
+:64}],"name":"Mockingbird Sun EP","release_date":"2011-06-21","release_date_prec
+ision":"day","total_tracks":4,"type":"album","uri":"spotify:album:69F3hueSJEnDWO
+7G5GLDlW"},"artists":[{"external_urls":{"spotify":"https://open.spotify.com/arti
+st/5u6wPDvT0wrNe3PNzXos9Q"},"href":"https://api.spotify.com/v1/artists/5u6wPDvT0
+wrNe3PNzXos9Q","id":"5u6wPDvT0wrNe3PNzXos9Q","name":"Mockingbird Sun","type":"ar
+tist","uri":"spotify:artist:5u6wPDvT0wrNe3PNzXos9Q"}],"available_markets":["AD",
+"AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK",
+"DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS",
+"IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE",
+"PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"]
+,"disc_number":1,"duration_ms":162490,"explicit":false,"external_ids":{"isrc":"T
+CACF1575095"},"external_urls":{"spotify":"https://open.spotify.com/track/7DOwbDp
+2cLy2BWb7lcXPkK"},"href":"https://api.spotify.com/v1/tracks/7DOwbDp2cLy2BWb7lcXP
+kK","id":"7DOwbDp2cLy2BWb7lcXPkK","is_local":false,"name":"Hard Habit to Break",
+"popularity":5,"preview_url":"https://p.scdn.co/mp3-preview/ebf47fa855d80d156b4a
+f9e67b339a8e9a28b57f?cid=15d0edaa85da443aa5dce06d0b391c07","track_number":3,"typ
+e":"track","uri":"spotify:track:7DOwbDp2cLy2BWb7lcXPkK"},{"album":{"album_type":
+"compilation","artists":[{"external_urls":{"spotify":"https://open.spotify.com/a
+rtist/0LyfQWJT6nXafLPZqxe9Of"},"href":"https://api.spotify.com/v1/artists/0LyfQW
+JT6nXafLPZqxe9Of","id":"0LyfQWJT6nXafLPZqxe9Of","name":"Various Artists","type":
+"artist","uri":"spotify:artist:0LyfQWJT6nXafLPZqxe9Of"}],"available_markets":["A
+D","AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","D
+K","DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","I
+S","IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","P
+E","PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","Z
+A"],"external_urls":{"spotify":"https://open.spotify.com/album/2MLjvPwpwdqXgnogO
+PGnzi"},"href":"https://api.spotify.com/v1/albums/2MLjvPwpwdqXgnogOPGnzi","id":"
+2MLjvPwpwdqXgnogOPGnzi","images":[{"height":640,"url":"https://i.scdn.co/image/7
+d686695abc4441a7f8b298a6393afb19ff23bc7","width":640},{"height":300,"url":"https
+://i.scdn.co/image/6ea66d5bbc065507d3700d48f2a79ab6c2af9ba0","width":300},{"heig
+ht":64,"url":"https://i.scdn.co/image/21e5ef1a9c7c4f3895d01c61688dd1d861261962",
+"width":64}],"name":"Sun Fire Eurobeat","release_date":"2012-03-18","release_dat
+e_precision":"day","total_tracks":11,"type":"album","uri":"spotify:album:2MLjvPw
+pwdqXgnogOPGnzi"},"artists":[{"external_urls":{"spotify":"https://open.spotify.c
+om/artist/28pGQt5QCfOKqb6PJ8e3po"},"href":"https://api.spotify.com/v1/artists/28
+pGQt5QCfOKqb6PJ8e3po","id":"28pGQt5QCfOKqb6PJ8e3po","name":"Rich Hard","type":"a
+rtist","uri":"spotify:artist:28pGQt5QCfOKqb6PJ8e3po"}],"available_markets":["AD"
+,"AR","AT","AU","BE","BG","BO","BR","CA","CH","CL","CO","CR","CY","CZ","DE","DK"
+,"DO","EC","EE","ES","FI","FR","GB","GR","GT","HK","HN","HU","ID","IE","IL","IS"
+,"IT","JP","LI","LT","LU","LV","MC","MT","MX","MY","NI","NL","NO","NZ","PA","PE"
+,"PH","PL","PT","PY","RO","SE","SG","SK","SV","TH","TR","TW","US","UY","VN","ZA"
+],"disc_number":1,"duration_ms":286400,"explicit":false,"external_ids":{"isrc":"
+TCABE1278938"},"external_urls":{"spotify":"https://open.spotify.com/track/718dh3
+5a2Q9tLVC6DKjWgY"},"href":"https://api.spotify.com/v1/tracks/718dh35a2Q9tLVC6DKj
+WgY","id":"718dh35a2Q9tLVC6DKjWgY","is_local":false,"name":"Take My Life","popul
+arity":14,"preview_url":"https://p.scdn.co/mp3-preview/def693e0a8ccf57f9836e9aeb
+ec22e221addce07?cid=15d0edaa85da443aa5dce06d0b391c07","track_number":5,"type":"t
+rack","uri":"spotify:track:718dh35a2Q9tLVC6DKjWgY"}],"limit":20,"next":"https://
+api.spotify.com/v1/search?query=hard+sun&type=track&offset=20&limit=20","offset"
+:0,"previous":null,"total":610}}
