@@ -176,14 +176,15 @@ inquirer
 
 		  // If the request was successful...
 		  if (!error && response.statusCode === 200) {
+			if (body.warn == "Not found"){
+				presentData(["Sorry, no concert information available"]);
+				return;
+			}
 			var data = JSON.parse(body);
-			//console.log(body);
-			//console.log(typeof data);
-			//return;
 			// Then log the body from the site!
 			if (data.length === 0) {
-				presentData(["Sorry, no concert information available"]);
-			} else if (data.length > 5){
+				presentData(["Sorry, no concert information available"]);	
+			}else if (data.length > 5){
 				var sizeLimiter = 5;
 			} else {
 				var sizeLimiter = data.length();
