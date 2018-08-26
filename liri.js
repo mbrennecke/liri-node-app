@@ -31,7 +31,7 @@ inquirer
 	function switcher(choice, rando) {
 		switch(choice){
 			case "Find a concert":
-				
+				concert(rando);
 				break;
 			case "Spotify a song":
 			// call to spotify stuff
@@ -136,7 +136,7 @@ inquirer
 			return console.log('Error occurred: ' + err);
 		  }
 		  //parsed response from spotify, which returns a very complicated response
-		var dataArr = [data.tracks.items[0].artists[0].name, data.tracks.items[0].name, data.tracks.items[0].preview_url, data.tracks.items[0].album.name];
+		var dataArr = ["Artist(s): " + data.tracks.items[0].artists[0].name, "Track:" + data.tracks.items[0].name, "Preview URL: " + data.tracks.items[0].preview_url, "Album: " + data.tracks.items[0].album.name];
 		//some artists do not have a preview URL, so we give a message instead of 'null'
 		if (!dataArr[2]){
 			dataArr[2] = "No preview URL available";
@@ -154,7 +154,7 @@ inquirer
 		inquirer.prompt([{
 		  name: 'artist',
 		  type: 'input',
-		  message: 'What song do you want?'
+		  message: 'What artist or band do you want?'
 		}]).then(function(response){
 			//logging song name or lack thereof
 			log(response.artist);
@@ -167,7 +167,7 @@ inquirer
 				return;
 			}
 			//if they gave a song title, we send it to the see if they know an artist
-			artist(userArtist);
+			concertQuery(userArtist);
 		});
 	}
 	
@@ -176,9 +176,21 @@ inquirer
 
 		  // If the request was successful...
 		  if (!error && response.statusCode === 200) {
-
+			var data = JSON.parse(body);
+			//console.log(body);
+			//console.log(typeof data);
+			//return;
 			// Then log the body from the site!
-			for(var i = 0; )
+			if (data.length === 0) {
+				presentData(["Sorry, no concert information available"]);
+			} else if (data.length > 5){
+				var sizeLimiter = 5;
+			} else {
+				var sizeLimiter = data.length();
+			}
+			for(var i = 0; i<sizeLimiter; i++) {
+				presentData(["Venue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
+			}
 		  }
 		});
 
