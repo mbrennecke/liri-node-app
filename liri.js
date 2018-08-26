@@ -25,29 +25,35 @@ inquirer
 	//logging inputs and responses
 		log(inquirerResponse.choice);
 	//switch to manage user's choice
-		switch(inquirerResponse.choice){
-				case "Find a concert":
-					var song = whatUserWants("What artist or band?");
-					break;
-				case "Spotify a song":
-				// call to spotify stuff
-					songSearch();
-					break;
-				case "Get info on a movie":
-					whatUserWants("What movie?");
-					break;
-				case 'Make Liri "do what it says"':
-					fs.readFile("random.txt", "utf8", function(error, data) {
-						if (error) {
-							return console.log(error);
-						  }
-						  var dataArr = data.split(",");
-					});
-					break;
-				default:
-					break;
-			}
+		switcher(inquirerResponse.choice);
 	});
+	
+function switcher(choice, rando) {
+	switch(choice){
+		case "Find a concert":
+			
+			break;
+		case "Spotify a song":
+		// call to spotify stuff
+			songSearch(rando);
+			break;
+		case "Get info on a movie":
+			
+			break;
+		case 'Make Liri "do what it says"':
+			fs.readFile("random.txt", "utf8", function(error, data) {
+				if (error) {
+					return console.log(error);
+				  }
+				  var dataArr = data.split(",");
+				  switcher(dataArr[0], dataArr[1]);
+				  console.log(dataArr.toString());
+			});
+			break;
+		default:
+			break;
+	}
+}
 	
 function artist(song, artist) {
 		if (!artist){
@@ -97,25 +103,29 @@ function artist(song, artist) {
 	}
 
 		//function to prompt the user for an song name
-	function songSearch() {
-			inquirer.prompt([{
-			  name: 'song',
-			  type: 'input',
-			  message: 'What song do you want?'
-			}]).then(function(response){
-				//logging song name or lack thereof
-				log(response.song);
-				//multi word queries need the words concatenated with a +
-				var userSong = response.song.replace(" ", "+");
-				//check if an artist was supplied
-				if (!userSong) {
-					//if no song, we send them to get a default response
-					artist("The+Sign","Ace+of+Base");
-					return;
-				}
-				//if they gave a song title, we send it to the see if they know an artist
-				artist(userSong);
-			});
+	function songSearch(rando) {
+		if (rando) {
+			track(rando);
+			return;
+		}
+		inquirer.prompt([{
+		  name: 'song',
+		  type: 'input',
+		  message: 'What song do you want?'
+		}]).then(function(response){
+			//logging song name or lack thereof
+			log(response.song);
+			//multi word queries need the words concatenated with a +
+			var userSong = response.song.replace(" ", "+");
+			//check if an artist was supplied
+			if (!userSong) {
+				//if no song, we send them to get a default response
+				artist("The+Sign","Ace+of+Base");
+				return;
+			}
+			//if they gave a song title, we send it to the see if they know an artist
+			artist(userSong);
+		});
 	}
 	
 	//call to spotify using node-spotify-api (not spotify-web-api-node)
