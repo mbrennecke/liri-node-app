@@ -146,8 +146,42 @@ inquirer
 		});
 	}
 	
-	function concert(rando) {
-		
+	function concert(rando){
+		if (rando) {
+			concertQuery(rando);
+			return;
+		}
+		inquirer.prompt([{
+		  name: 'artist',
+		  type: 'input',
+		  message: 'What song do you want?'
+		}]).then(function(response){
+			//logging song name or lack thereof
+			log(response.artist);
+			//multi word queries need the words concatenated with a +
+			var userArtist = response.artist.replace(" ", "+");
+			//check if an artist was supplied
+			if (!userArtist) {
+				//if no song, we send them to get a default response
+				concertQuery("Celine+Dion");
+				return;
+			}
+			//if they gave a song title, we send it to the see if they know an artist
+			artist(userArtist);
+		});
+	}
+	
+	function concertQuery(artist) {
+		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
+
+		  // If the request was successful...
+		  if (!error && response.statusCode === 200) {
+
+			// Then log the body from the site!
+			for(var i = 0; )
+		  }
+		});
+
 	}
 	
 	//this function writes the data to the console
