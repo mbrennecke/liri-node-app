@@ -28,34 +28,34 @@ inquirer
 		switcher(inquirerResponse.choice);
 	});
 	
-function switcher(choice, rando) {
-	switch(choice){
-		case "Find a concert":
-			
-			break;
-		case "Spotify a song":
-		// call to spotify stuff
-			songSearch(rando);
-			break;
-		case "Get info on a movie":
-			
-			break;
-		case 'Make Liri "do what it says"':
-			fs.readFile("random.txt", "utf8", function(error, data) {
-				if (error) {
-					return console.log(error);
-				  }
-				  var dataArr = data.split(",");
-				  switcher(dataArr[0], dataArr[1]);
-				  console.log(dataArr.toString());
-			});
-			break;
-		default:
-			break;
+	function switcher(choice, rando) {
+		switch(choice){
+			case "Find a concert":
+				
+				break;
+			case "Spotify a song":
+			// call to spotify stuff
+				songSearch(rando);
+				break;
+			case "Get info on a movie":
+				
+				break;
+			case 'Make Liri "do what it says"':
+				fs.readFile("random.txt", "utf8", function(error, data) {
+					if (error) {
+						return console.log(error);
+					  }
+					  var dataArr = data.split(",");
+					  switcher(dataArr[0], dataArr[1]);
+					  console.log(dataArr.toString());
+				});
+				break;
+			default:
+				break;
+		}
 	}
-}
 	
-function artist(song, artist) {
+	function artist(song, artist) {
 		if (!artist){
 			inquirer.prompt([{
 			  name: 'songArtist',
@@ -146,7 +146,9 @@ function artist(song, artist) {
 		});
 	}
 	
-
+	function concert(rando) {
+		
+	}
 	
 	//this function writes the data to the console
 	function presentData(dataArr){
