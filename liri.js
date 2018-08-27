@@ -173,8 +173,6 @@ inquirer
 	
 	function concertQuery(artist) {
 		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
-			//console.log(JSON.stringify(body));
-			//return;
 			if (JSON.stringify(body).includes('Not')) {
 				presentData(["Sorry, no concert information available for " + artist]);
 				return;
@@ -193,6 +191,58 @@ inquirer
 			for(var i = 0; i<sizeLimiter; i++) {
 				presentData(["Venue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
 			}
+		  }
+		});
+
+	}
+	
+	function movieSearch(rando){
+		if (rando) {
+			movieQuery(rando);
+			return;
+		}
+		inquirer.prompt([{
+		  name: 'movie',
+		  type: 'input',
+		  message: 'What movie do you want?'
+		}]).then(function(response){
+			//logging movie name or lack thereof
+			log(response.movie);
+			//multi word queries need the words concatenated with a +
+			var userMovie = response.movie.replace(" ", "+");
+			//check if an artist was supplied
+			if (!userMovie) {
+				//if no song, we send them to get a default response
+				movieQuery("Mr+Nobody");
+				return;
+			}
+			//if they gave a song title, we send it to the see if they know an artist
+			movieQuery(userMovie);
+		});
+	}
+	
+	function movieQuery(userMovie) {
+		request("https://www.omdbapi.com/?t=" + userMovie + "&y=&plot=short&apikey=dedeeaf2", function(error, response, body) {
+		  // If the request was successful...
+		  if (!error && response.statusCode === 200) {
+			var data = JSON.parse(body);
+			if (data.Response == "False") {
+				presentData(["Sorry, no movie information available"]);
+				return;
+			}
+			var imdbRatings;
+			var rottenRatings;
+			if (!data.Ratings[0]){
+				imdbRatings = "No imdb rating";
+				rottenRatings = "No Rotten Tomato rating";
+			} else if (!data.Ratings[1]) {
+				imdbRatings = data.Ratings[0].Value;
+				rottenRatings = "No Rotten Tomato rating";
+			} else {
+				imdbRatings = data.Ratings[0].Value;
+				rottenRatings = data.Ratings[1].Value;
+			}
+			presentData(["Movie: " + data.Title, "Released: " + data.Released, "imdb Rating: " + imdbRatings, "Rotten Tomatoes Rating: " + rottenRatings, "Produced in: " + data.Country, "Language: " + data.Language, "Plot: " + data.Plot, "Actors: " + data.Actors]);
 		  }
 		});
 
