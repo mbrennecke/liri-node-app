@@ -38,7 +38,7 @@ inquirer
 				songSearch(rando);
 				break;
 			case "Get info on a movie":
-				
+				movieSearch(rando);
 				break;
 			case 'Make Liri "do what it says"':
 				fs.readFile("random.txt", "utf8", function(error, data) {
@@ -133,7 +133,7 @@ inquirer
 		//query, limited to 1 response
 		spotify.search({ type: 'track', query: userQuery , limit: 1 }, function(err, data) {
 		  if (err) {
-			return presentData(['Error occurred: unable to get requested song']);
+			return presentData(['Error occurred: unable to get song info']);
 		  }
 		  //parsed response from spotify, which returns a very complicated response
 		var dataArr = ["Artist(s): " + data.tracks.items[0].artists[0].name, "Track:" + data.tracks.items[0].name, "Preview URL: " + data.tracks.items[0].preview_url, "Album: " + data.tracks.items[0].album.name];
@@ -176,7 +176,7 @@ inquirer
 			//console.log(JSON.stringify(body));
 			//return;
 			if (JSON.stringify(body).includes('Not')) {
-				presentData(["Sorry, no concert information available"]);
+				presentData(["Sorry, no concert information available for " + artist]);
 				return;
 			}
 		  // If the request was successful...
