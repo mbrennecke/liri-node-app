@@ -133,7 +133,7 @@ inquirer
 		//query, limited to 1 response
 		spotify.search({ type: 'track', query: userQuery , limit: 1 }, function(err, data) {
 		  if (err) {
-			return console.log('Error occurred: ' + err);
+			return presentData(['Error occurred: unable to get requested song']);
 		  }
 		  //parsed response from spotify, which returns a very complicated response
 		var dataArr = ["Artist(s): " + data.tracks.items[0].artists[0].name, "Track:" + data.tracks.items[0].name, "Preview URL: " + data.tracks.items[0].preview_url, "Album: " + data.tracks.items[0].album.name];
@@ -173,13 +173,14 @@ inquirer
 	
 	function concertQuery(artist) {
 		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
-
-		  // If the request was successful...
-		  if (!error && response.statusCode === 200) {
-			if (body.warn == "Not found"){
+			//console.log(JSON.stringify(body));
+			//return;
+			if (JSON.stringify(body).includes('Not')) {
 				presentData(["Sorry, no concert information available"]);
 				return;
 			}
+		  // If the request was successful...
+		  if (!error && response.statusCode === 200) {
 			var data = JSON.parse(body);
 			// Then log the body from the site!
 			if (data.length === 0) {

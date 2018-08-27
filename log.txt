@@ -169,3 +169,34 @@ Find a concert
 t9-
 Find a concert
 t9=
+Find a concert
+9=
+Find a concert
+=
+Find a concert
+=
+Find a concert
+=
+Find a concert
+=
+Find a concert
+=
+Find a concert
+=
+Find a concert
+=
+Sorry, no concert information available
+Spotify a song
+=
+undefined
+Spotify a song
+=
+undefined
+Spotify a song
+=
+undefined
+Error occurred: TypeError: Cannot read property 'artists' of undefined
+Spotify a song
+=
+undefined
+Error occurred: unable to get requested song
