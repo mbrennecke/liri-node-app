@@ -41,14 +41,7 @@ inquirer
 				movieSearch(rando);
 				break;
 			case 'Make Liri "do what it says"':
-				fs.readFile("random.txt", "utf8", function(error, data) {
-					if (error) {
-						return console.log(error);
-					  }
-					  var dataArr = data.split(",");
-					  switcher(dataArr[0], dataArr[1]);
-					  console.log(dataArr.toString());
-				});
+				randomSelection();
 				break;
 			default:
 				break;
@@ -105,7 +98,8 @@ inquirer
 		//function to prompt the user for an song name
 	function songSearch(rando) {
 		if (rando) {
-			track(rando);
+			var userSong = queryBuilder(rando);
+			track(userSong);
 			return;
 		}
 		inquirer.prompt([{
@@ -116,7 +110,7 @@ inquirer
 			//logging song name or lack thereof
 			log(response.song);
 			//multi word queries need the words concatenated with a +
-			var userSong = response.song.replace(" ", "+");
+			var userSong = queryBuilder(response.song);
 			//check if an artist was supplied
 			if (!userSong) {
 				//if no song, we send them to get a default response
@@ -136,7 +130,7 @@ inquirer
 			return presentData(['Error occurred: unable to get song info']);
 		  }
 		  //parsed response from spotify, which returns a very complicated response
-		var dataArr = ["Artist(s): " + data.tracks.items[0].artists[0].name, "Track:" + data.tracks.items[0].name, "Preview URL: " + data.tracks.items[0].preview_url, "Album: " + data.tracks.items[0].album.name];
+		var dataArr = ["\nArtist(s): " + data.tracks.items[0].artists[0].name, "Track:" + data.tracks.items[0].name, "Preview URL: " + data.tracks.items[0].preview_url, "Album: " + data.tracks.items[0].album.name];
 		//some artists do not have a preview URL, so we give a message instead of 'null'
 		if (!dataArr[2]){
 			dataArr[2] = "No preview URL available";
@@ -148,7 +142,8 @@ inquirer
 	
 	function concert(rando){
 		if (rando) {
-			concertQuery(rando);
+			//var userArtist = queryBuilder(rando);
+			concertQuery(queryBuilder(rando));
 			return;
 		}
 		inquirer.prompt([{
@@ -159,7 +154,7 @@ inquirer
 			//logging song name or lack thereof
 			log(response.artist);
 			//multi word queries need the words concatenated with a +
-			var userArtist = response.artist.replace(" ", "+");
+			var userArtist = queryBuilder(response.artist);
 			//check if an artist was supplied
 			if (!userArtist) {
 				//if no song, we send them to get a default response
@@ -174,7 +169,7 @@ inquirer
 	function concertQuery(artist) {
 		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
 			if (JSON.stringify(body).includes('Not')) {
-				presentData(["Sorry, no concert information available for " + artist]);
+				presentData(["Sorry, no concert information available"]);
 				return;
 			}
 		  // If the request was successful...
@@ -189,7 +184,7 @@ inquirer
 				var sizeLimiter = data.length();
 			}
 			for(var i = 0; i<sizeLimiter; i++) {
-				presentData(["Venue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
+				presentData(["\nVenue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
 			}
 		  }
 		});
@@ -198,7 +193,8 @@ inquirer
 	
 	function movieSearch(rando){
 		if (rando) {
-			movieQuery(rando);
+			var userMovie = queryBuilder(rando);
+			movieQuery(userMovie);
 			return;
 		}
 		inquirer.prompt([{
@@ -209,7 +205,7 @@ inquirer
 			//logging movie name or lack thereof
 			log(response.movie);
 			//multi word queries need the words concatenated with a +
-			var userMovie = response.movie.replace(" ", "+");
+			var userMovie = queryBuilder(response.movie);
 			//check if an artist was supplied
 			if (!userMovie) {
 				//if no song, we send them to get a default response
@@ -242,10 +238,32 @@ inquirer
 				imdbRatings = data.Ratings[0].Value;
 				rottenRatings = data.Ratings[1].Value;
 			}
-			presentData(["Movie: " + data.Title, "Released: " + data.Released, "imdb Rating: " + imdbRatings, "Rotten Tomatoes Rating: " + rottenRatings, "Produced in: " + data.Country, "Language: " + data.Language, "Plot: " + data.Plot, "Actors: " + data.Actors]);
+			presentData(["\nMovie: " + data.Title, "Released: " + data.Released, "imdb Rating: " + imdbRatings, "Rotten Tomatoes Rating: " + rottenRatings, "Produced in: " + data.Country, "Language: " + data.Language, "Plot: " + data.Plot, "Actors: " + data.Actors]);
 		  }
 		});
 
+	}
+	
+	function randomSelection() {
+		fs.readFile("random.txt", "utf8", function(error, data) {
+			if (error) {
+				return console.log(error);
+			  }
+			  var dataArr = data.split(",");
+			  var randomGen = Math.floor(Math.random() * dataArr.length)
+			  console.log(randomGen);
+			  if (randomGen % 2 == 1){
+				randomGen -= 1;
+			  }
+			  switcher(dataArr[randomGen], dataArr[randomGen+1]);
+			  console.log(dataArr);
+		});
+	}
+	
+	function queryBuilder(toBuild) {
+		var thing = toBuild.split(' ').join('+');
+		return thing;
+		
 	}
 	
 	//this function writes the data to the console
