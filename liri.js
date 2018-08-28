@@ -28,6 +28,7 @@ inquirer
 		switcher(inquirerResponse.choice);
 	});
 	
+	//function to run the switch case for user's choice
 	function switcher(choice, rando) {
 		switch(choice){
 			case "Find a concert":
@@ -48,6 +49,7 @@ inquirer
 		}
 	}
 	
+	//function that prompts user to whether they know the band for the song, helps get correct results
 	function artist(song, artist) {
 		if (!artist){
 			inquirer.prompt([{
@@ -95,8 +97,9 @@ inquirer
 		}
 	}
 
-		//function to prompt the user for an song name
+		//function to prompt the user for a song name
 	function songSearch(rando) {
+		//if random choice is selected it is parsed here
 		if (rando) {
 			var userSong = queryBuilder(rando);
 			track(userSong);
@@ -140,7 +143,9 @@ inquirer
 		});
 	}
 	
+	//function to get the band the user wants concert information for
 	function concert(rando){
+		//if random choice is selected it is parsed here
 		if (rando) {
 			//var userArtist = queryBuilder(rando);
 			concertQuery(queryBuilder(rando));
@@ -166,6 +171,7 @@ inquirer
 		});
 	}
 	
+	//function that processes the band information and submits the API query
 	function concertQuery(artist) {
 		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
 			if (JSON.stringify(body).includes('Not')) {
@@ -175,7 +181,7 @@ inquirer
 		  // If the request was successful...
 		  if (!error && response.statusCode === 200) {
 			var data = JSON.parse(body);
-			// Then log the body from the site!
+			// if no concert info is available, the result will return a zero data array
 			if (data.length === 0) {
 				presentData(["Sorry, no concert information available"]);	
 			}else if (data.length > 5){
@@ -191,7 +197,9 @@ inquirer
 
 	}
 	
+	//function to search for movie data for the user
 	function movieSearch(rando){
+		//if random choice is selected it is parsed here
 		if (rando) {
 			var userMovie = queryBuilder(rando);
 			movieQuery(userMovie);
@@ -208,15 +216,15 @@ inquirer
 			var userMovie = queryBuilder(response.movie);
 			//check if an artist was supplied
 			if (!userMovie) {
-				//if no song, we send them to get a default response
+				//if no movie, we send them to get a default response
 				movieQuery("Mr+Nobody");
 				return;
 			}
-			//if they gave a song title, we send it to the see if they know an artist
 			movieQuery(userMovie);
 		});
 	}
 	
+	//function for API query with movie title
 	function movieQuery(userMovie) {
 		request("https://www.omdbapi.com/?t=" + userMovie + "&y=&plot=short&apikey=dedeeaf2", function(error, response, body) {
 		  // If the request was successful...
@@ -228,12 +236,13 @@ inquirer
 			}
 			var imdbRatings;
 			var rottenRatings;
+			//if no imdb or rotten tomatoes ratings an error will be thrown, if attempting to get it
 			if (!data.Ratings[0]){
 				imdbRatings = "No imdb rating";
-				rottenRatings = "No Rotten Tomato rating";
+				rottenRatings = "No Rotten Tomatoes rating";
 			} else if (!data.Ratings[1]) {
 				imdbRatings = data.Ratings[0].Value;
-				rottenRatings = "No Rotten Tomato rating";
+				rottenRatings = "No Rotten Tomatoes rating";
 			} else {
 				imdbRatings = data.Ratings[0].Value;
 				rottenRatings = data.Ratings[1].Value;
@@ -244,22 +253,28 @@ inquirer
 
 	}
 	
+	//if the "do what it says" is chosen, we need to grab a random thing to query
 	function randomSelection() {
 		fs.readFile("random.txt", "utf8", function(error, data) {
 			if (error) {
 				return console.log(error);
 			  }
+			  //the file is read and split into an array
 			  var dataArr = data.split(",");
+			  //a random number is generated
 			  var randomGen = Math.floor(Math.random() * dataArr.length)
-			  console.log(randomGen);
+				//the element that corresponds to the choice is always going to be an even number or 0
 			  if (randomGen % 2 == 1){
+				//if an odd is chosen, it is changed to an even  
 				randomGen -= 1;
 			  }
+			  //the items to be queried are then sent to the switcher function and processed almost like a user choice
 			  switcher(dataArr[randomGen], dataArr[randomGen+1]);
 			  console.log(dataArr);
 		});
 	}
 	
+	//function to split user choices to ensure they can be processed correctly
 	function queryBuilder(toBuild) {
 		var thing = toBuild.split(' ').join('+');
 		return thing;
@@ -283,9 +298,4 @@ inquirer
 			}
 		  });
 	}
-	
-
-	
-
-	
 	
