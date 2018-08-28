@@ -142,8 +142,8 @@ inquirer
 	
 	function concert(rando){
 		if (rando) {
-			//var userArtist = queryBuilder(rando);
-			concertQuery(queryBuilder(rando));
+			var userArtist = queryBuilder(rando);
+			concertQuery(userArtist);
 			return;
 		}
 		inquirer.prompt([{
@@ -161,13 +161,14 @@ inquirer
 				concertQuery("Celine+Dion");
 				return;
 			}
-			//if they gave a song title, we send it to the see if they know an artist
-			concertQuery(userArtist);
+			//
+			concertQuery(queryBuilder(response.artist));
 		});
 	}
 	
-	function concertQuery(artist) {
-		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
+	function concertQuery(userArtist) {
+
+		request("https://rest.bandsintown.com/artists/" + userArtist + "/events?app_id=d2570810ad69e1b20ec7f6a709deb0ec", function(error, response, body) {
 			if (JSON.stringify(body).includes('Not')) {
 				presentData(["Sorry, no concert information available"]);
 				return;
@@ -181,7 +182,7 @@ inquirer
 			}else if (data.length > 5){
 				var sizeLimiter = 5;
 			} else {
-				var sizeLimiter = data.length();
+				var sizeLimiter = data.length;
 			}
 			for(var i = 0; i<sizeLimiter; i++) {
 				presentData(["\nVenue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
@@ -251,12 +252,10 @@ inquirer
 			  }
 			  var dataArr = data.split(",");
 			  var randomGen = Math.floor(Math.random() * dataArr.length)
-			  console.log(randomGen);
 			  if (randomGen % 2 == 1){
 				randomGen -= 1;
 			  }
 			  switcher(dataArr[randomGen], dataArr[randomGen+1]);
-			  console.log(dataArr);
 		});
 	}
 	
