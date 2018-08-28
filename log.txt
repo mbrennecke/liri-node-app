@@ -1,50 +1,38 @@
 Make Liri "do what it says"
-Make Liri "do what it says"
-Make Liri "do what it says"
-Sorry, no concert information available for VNV Nation
-Find a concert
-vnv nation
-Sorry, no concert information available for vnv+nation
-Make Liri "do what it says"
-Sorry, no concert information available
-Make Liri "do what it says"
-Error occurred: unable to get song info
-Make Liri "do what it says"
-Movie: Plan 9 from Outer Space
-Released: 22 Jul 1959
-imdb Rating: 4.0/10
-Rotten Tomatoes Rating: 67%
-Produced in: USA
-Language: English
-Plot: Evil aliens attack Earth and set their terrible "Plan 9" in action. As the aliens resurrect the dead of the Earth to destroy the living, our lives are in danger.
-Actors: Gregory Walcott, Mona McKinnon, Duke Moore, Tom Keene
-Make Liri "do what it says"
-Sorry, no concert information available
+
+Movie: Zardoz
+Released: 06 Feb 1974
+Rotten Tomatoes Rating: 45%
+Plot: In the distant future, a savage trained only to kill finds a way into the community of bored immortals that alone preserves humanity's achievements.
+Language: English, Italian, Swedish, Latin, German, French, Irish
+Produced in: Ireland, USA
+imdb Rating: 5.8/10
+Actors: Sean Connery, Charlotte Rampling, Sara Kestelman, John Alderton
 Make Liri "do what it says"
 
 Movie: Plan 9 from Outer Space
-Rotten Tomatoes Rating: 67%
 imdb Rating: 4.0/10
-Released: 22 Jul 1959
+Rotten Tomatoes Rating: 67%
 Language: English
-Produced in: USA
+Released: 22 Jul 1959
 Plot: Evil aliens attack Earth and set their terrible "Plan 9" in action. As the aliens resurrect the dead of the Earth to destroy the living, our lives are in danger.
 Actors: Gregory Walcott, Mona McKinnon, Duke Moore, Tom Keene
+Produced in: USA
 Make Liri "do what it says"
-Error occurred: unable to get song info
-Make Liri "do what it says"
-Error occurred: unable to get song info
-Make Liri "do what it says"
-Sorry, no concert information available
-Find a concert
-nin
 
-Venue: Comerica Theatre
+Artist(s): Backstreet Boys
+Track:I Want It That Way
+Album: The Hits--Chapter One
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=15d0edaa85da443aa5dce06d0b391c07
+Find a concert
+Nine Inch Nails
 
 Venue: Comerica Theatre
 City: Phoenix
 Date: 9/13/2018
 
+
+Venue: Comerica Theatre
 City: Phoenix
 Date: 9/14/2018
 
@@ -64,22 +52,150 @@ City: San Antonio
 Date: 9/22/2018
 
 Find a concert
-vnv nation
-Sorry, no concert information available
-Find a concert
-def leppard
-Sorry, no concert information available
-Make Liri "do what it says"
+
+
+Venue: THE COLOSSEUM AT CAESARS PALACE
+Date: 10/30/2018
+
+
+Venue: THE COLOSSEUM AT CAESARS PALACE
+City: Las Vegas
+City: Las Vegas
+Date: 10/31/2018
+
+
+Venue: THE COLOSSEUM AT CAESARS PALACE
+City: Las Vegas
+Date: 11/2/2018
+
+
+Venue: THE COLOSSEUM AT CAESARS PALACE
+City: Las Vegas
+Date: 11/3/2018
+
+
+Venue: THE COLOSSEUM AT CAESARS PALACE
+City: Las Vegas
+Date: 11/6/2018
+
+Spotify a song
+pyromaniac
+Def leppard
 Error occurred: unable to get song info
+Spotify a song
+pyromania
+def leppard
+Error occurred: unable to get song info
+Spotify a song
+girls just want to have fun
+cindi lauper
+Error occurred: unable to get song info
+Spotify a song
+tear you up
+she wants revenge
+Error occurred: unable to get song info
+Spotify a song
+tear you apart
+she wants revenge
+
+Artist(s): She Wants Revenge
+Preview URL: null
+Track:Tear You Apart
+Album: She Wants Revenge
+Spotify a song
+brain stew
+green day
+
+Artist(s): Green Day
+Preview URL: https://p.scdn.co/mp3-preview/5d53ec4b9378bedd8eb028499054605eeef26b07?cid=15d0edaa85da443aa5dce06d0b391c07
+Album: Insomniac
+Track:Brain Stew
+Spotify a song
+all along the watchtower
+undefined
+
+Artist(s): Jimi Hendrix
+Track:All Along the Watchtower
+Preview URL: https://p.scdn.co/mp3-preview/5eec2933740ab3984340d5f004813f8275e1bb97?cid=15d0edaa85da443aa5dce06d0b391c07
+Album: Electric Ladyland
+Spotify a song
+
+
+Artist(s): Ace of Base
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=15d0edaa85da443aa5dce06d0b391c07
+Track:The Sign
+Album: The Sign (US Album) [Remastered]
+Get info on a movie
+condorman
+
+Movie: Condorman
+Released: 07 Aug 1981
+Produced in: UK
+imdb Rating: 5.8/10
+Rotten Tomatoes Rating: 25%
+Plot: Cartoonist Woody becomes the superhero he draws. Using his gadgets he helps a Soviet spy defect to the West.
+Language: English
+Actors: Michael Crawford, Oliver Reed, Barbara Carrera, James Hampton
+Get info on a movie
+
+
+Movie: Mr. Nobody
+Released: 26 Sep 2013
+Rotten Tomatoes Rating: 66%
+Produced in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+imdb Rating: 7.9/10
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 Make Liri "do what it says"
 
-Movie: Plan 9 from Outer Space
-Released: 22 Jul 1959
-Rotten Tomatoes Rating: 67%
-Produced in: USA
-imdb Rating: 4.0/10
-Language: English
-Plot: Evil aliens attack Earth and set their terrible "Plan 9" in action. As the aliens resurrect the dead of the Earth to destroy the living, our lives are in danger.
-Actors: Gregory Walcott, Mona McKinnon, Duke Moore, Tom Keene
+Venue: Def Leppard & Journey 
+City: New Orleans
+Date: 8/27/2018
+
+
+Venue: Def Leppard & Journey
+Date: 8/29/2018
+
+City: Dallas
+
+Venue: Journey & Def Leppard
+
+Venue: Def Leppard & Journey 
+City: Houston
+City: San Antonio
+
+Venue: Journey & Def Leppard
+City: Houston
+Date: 8/31/2018
+
+Date: 9/1/2018
+
+Date: 9/3/2018
+
 Make Liri "do what it says"
-Sorry, no concert information available
+
+Venue: Ole Smoky
+City: Pigeon Forge
+Date: 8/29/2018
+
+Date: 8/31/2018
+
+
+Venue: Arts, Beats & Eats Festival
+City: Milwaukee
+City: Royal Oak
+
+Venue: A Taste of Colorado
+
+Venue: House of Harley Davidson
+Date: 9/2/2018
+
+
+Venue: KAABOO
+Date: 9/3/2018
+
+Date: 9/14/2018
+
+City: Denver
+City: Del Mar

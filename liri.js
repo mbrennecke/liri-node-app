@@ -147,8 +147,8 @@ inquirer
 	function concert(rando){
 		//if random choice is selected it is parsed here
 		if (rando) {
-			//var userArtist = queryBuilder(rando);
-			concertQuery(queryBuilder(rando));
+			var userArtist = queryBuilder(rando);
+			concertQuery(userArtist);
 			return;
 		}
 		inquirer.prompt([{
@@ -166,14 +166,13 @@ inquirer
 				concertQuery("Celine+Dion");
 				return;
 			}
-			//if they gave a song title, we send it to the see if they know an artist
-			concertQuery(userArtist);
+			//
+			concertQuery(queryBuilder(response.artist));
 		});
 	}
-	
-	//function that processes the band information and submits the API query
-	function concertQuery(artist) {
-		request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function(error, response, body) {
+
+	function concertQuery(userArtist) {
+		request("https://rest.bandsintown.com/artists/" + userArtist + "/events?app_id=d2570810ad69e1b20ec7f6a709deb0ec", function(error, response, body) {
 			if (JSON.stringify(body).includes('Not')) {
 				presentData(["Sorry, no concert information available"]);
 				return;
@@ -187,7 +186,7 @@ inquirer
 			}else if (data.length > 5){
 				var sizeLimiter = 5;
 			} else {
-				var sizeLimiter = data.length();
+				var sizeLimiter = data.length;
 			}
 			for(var i = 0; i<sizeLimiter; i++) {
 				presentData(["\nVenue: " + data[i].venue.name, "City: " + data[i].venue.city, "Date: " + moment(data[i].datetime).format('M[/]D[/]YYYY') + "\n"]);
@@ -270,7 +269,6 @@ inquirer
 			  }
 			  //the items to be queried are then sent to the switcher function and processed almost like a user choice
 			  switcher(dataArr[randomGen], dataArr[randomGen+1]);
-			  console.log(dataArr);
 		});
 	}
 	
