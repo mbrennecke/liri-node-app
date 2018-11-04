@@ -14,6 +14,6 @@ This project utilizes node.js, with node-spotify-api, inquirer, request, moment,
 
 This project is maintained by Matthew Brennecke mbrennecke10@gmail.com
 
-## Link to this project
+## Link to this project video demo
 
-This project is a command line only application run in node.js
+[Liri](https://drive.google.com/file/d/1z5EtFKRMxSQ0I-1UWc9Zl2MLrpBetu1N/view)

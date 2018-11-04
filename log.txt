@@ -199,3 +199,101 @@ Date: 9/14/2018
 
 City: Denver
 City: Del Mar
+Find a concert
+dave matthews band
+
+Venue: Les Schwab Amphitheater
+City: Bend
+
+Venue: Gorge Amphitheatre
+Date: 8/31/2018
+
+
+Venue: Gorge Amphitheatre
+City: George
+Date: 8/28/2018
+
+
+Venue: Gorge Amphitheatre
+City: George
+Date: 9/1/2018
+
+Date: 9/2/2018
+
+
+Venue: Lake Tahoe Outdoor Arena at Harveys
+City: George
+City: Zephyr Cove
+Date: 9/7/2018
+
+Spotify a song
+tear you apart
+she wants revenge
+
+Artist(s): She Wants Revenge
+Track:Tear You Apart
+Album: She Wants Revenge
+Preview URL: null
+Spotify a song
+girls just want to have fun
+undefined
+
+Artist(s): Cyndi Lauper
+Track:Girls Just Want to Have Fun
+Preview URL: https://p.scdn.co/mp3-preview/7a91e696b3f362ff96b3c9dfc3c6d4a34127459b?cid=15d0edaa85da443aa5dce06d0b391c07
+Album: She's So Unusual
+Spotify a song
+
+
+Artist(s): Ace of Base
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=15d0edaa85da443aa5dce06d0b391c07
+Track:The Sign
+Album: The Sign (US Album) [Remastered]
+Get info on a movie
+blade runner
+
+Movie: Blade Runner
+Released: 25 Jun 1982
+Produced in: USA, Hong Kong
+Language: English, German, Cantonese, Japanese, Hungarian, Arabic
+imdb Rating: 8.2/10
+Rotten Tomatoes Rating: 90%
+Plot: A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.
+Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos
+Get info on a movie
+
+
+Movie: Mr. Nobody
+Released: 26 Sep 2013
+Rotten Tomatoes Rating: 66%
+Produced in: Belgium, Germany, Canada, France, USA, UK
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+imdb Rating: 7.9/10
+Language: English, Mohawk
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Make Liri "do what it says"
+
+Venue: Def Leppard & Journey 
+City: New Orleans
+City: Dallas
+Date: 8/29/2018
+
+
+Venue: Journey & Def Leppard
+City: San Antonio
+
+Venue: Def Leppard & Journey
+Date: 8/27/2018
+
+
+Venue: Def Leppard & Journey 
+City: Houston
+Date: 8/31/2018
+
+Date: 9/1/2018
+
+
+Venue: Journey & Def Leppard
+City: Houston
+Date: 9/3/2018
+
